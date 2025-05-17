@@ -1,145 +1,39 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="%VITE_SITE_LOGO%" />
+    <link rel="apple-touch-icon" href="%VITE_SITE_APPLE_LOGO%" />
+    <link rel="bookmark" href="%VITE_SITE_APPLE_LOGO%" />
+    <link rel="apple-touch-icon-precomposed" sizes="200x200" href="%VITE_SITE_APPLE_LOGO%" />
+    <meta name="description" content="%VITE_SITE_DES%" />
+    <meta name="keywords" content="%VITE_SITE_KEYWORDS%" />
+    <meta name="author" content="%VITE_SITE_AUTHOR%" />
+    <meta name="theme-color" content="#424242" />
+    <title>%VITE_SITE_NAME%</title>
+    <!-- HarmonyOS Sans -->
+    <!-- 本站 CDN 已开启防盗链，非本站域名不可访问，请更改链接为下方内容，否则自定义字体将失效 -->
+    <link rel="stylesheet" href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css" /> -->
+    <!-- IE Out -->
+    <script>
+      if (/*@cc_on!@*/ false || (!!window.MSInputMethodContext && !!document.documentMode))
+        window.location.href =
+          'https://support.dmeng.net/upgrade-your-browser.html?referrer=' +
+          encodeURIComponent(window.location.href);
+    </script>
+  </head>
 
-<head>
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Dmego Home">
-    <meta name="keywords" content="Dmego,Homepage">
-    <meta name="author" content="Dmego">
-    <title>北遥的主页</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/onlinewebfonts.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/css/vno.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/iconfont.css">
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-    <link rel="icon" href="./favicon.ico">
-</head>
-
-<body>
-    <span class="mobile btn-mobile-menu">
-        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
-        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
-    </span>
-    <header id="panel" class="panel-cover">
-        <div class="panel-main">
-            <div class="panel-main__inner panel-inverted">
-                <div class="panel-main__content">
-                    <div class="ih-item circle effect right_to_left">            
-                        <a href="#" title="" class="blog-button">
-                            <div class="img"><img src="https://blog.beiyao.icu/img/me.png" alt="img" class="js-avatar iUp profilepic"></div>
-                            <div class="info iUp">
-                                <div class="info-back">
-                                    <h2> 
-                                        
-                                            Fighting
-                                        
-                                    </h2>
-                                    <p>
-                                        
-                                            2023 · 中考上岸
-                                        
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <h1 class="panel-cover__title panel-title iUp">
-                        <a href="#" title="北遥的主页">北遥</a>
-                    </h1>
-                    <p class="panel-cover__subtitle panel-subtitle iUp">Code Create Life</p>
-                    <hr class="panel-cover__divider iUp" />
-                    <p id="description" class="panel-cover__description iUp">如何得与凉风约, 不共尘沙一并来!
-                        <br/>
-                        <strong>-「中牟道中」</strong>
-                    </p>
-                    <div class="navigation-wrapper iUp">
-                        <div>
-                            <nav class="cover-navigation cover-navigation--primary">
-                                <ul class="navigation">
-                                    <li class="navigation__item">
-                                        <a href="/" class="blog-button">首页</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://blog.beiyao.icu" class="blog-button" target="_blank">博客</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://pay.beiyao.icu" class="blog-button" target="_blank">赞助</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://stats.uptimerobot.com/VjJjnT2JgY" class="blog-button" target="_blank">网站监测</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://chatgpt.beiyao.icu" class="blog-button" target="_blank">Chatgpt</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="iUp">
-                            <nav class="cover-navigation navigation--social">
-                                <ul class="navigation">
-                                    <li class="navigation__item">
-                                        <a href="https://github.com/beiyaohhhc" title="github" target="_blank">
-                                            <i class='social iconfont icon-github'></i>
-                                            <span class="label">github</span>
-                                        </a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://www.youtube.com/channel/UCY3PSrlV2X9z0Xvwh5Aw5dQ" title="YOUTUBE" target="_blank">
-                                            <i class='social iconfont icon-youtube'></i>
-                                            <span class="label">youtube</span>
-                                        </a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://space.bilibili.com/480532592" title="Bilibili" target="_blank">
-                                            <i class='social iconfont icon-bilibili-fill'></i>
-                                            <span class="label">bilibili</span>
-                                        </a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="https://discord.gg/MkwbJEbFdd" title="心火计划" target="_blank">
-                                            <i class='social iconfont icon-discord'></i>
-                                            <span class="label">discord</span>
-                                        </a>
-                                    </li>
-                                    
-                                     <!--
-                                    <li class="navigation__item">
-                                        <a href="" title="Bilibili" target="_blank">
-                                            <i class='social iconfont icon-Bilibili'></i>
-                                            <span class="label">youtube</span>
-                                        </a>
-                                    </li>
-                                    -->
-                                    <li class="navigation__item">
-                                        <!-- 加密的邮箱地址, 请自行修改, 或者改用下方的明文方式 -->
-                                        <a href="mailto::beiyao.chen@qq.com" title="email">
-                                        <!-- <a href="test@test.com" title="email"> -->
-                                            <i class='social iconfont icon-email'></i>
-                                            <span class="label">email</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="panel-cover--overlay cover-slate"></div>
-        </div>
-        <div class="beian iUp">
-            <a href="https://icp.gov.moe/?keyword=20230526" target="_blank">萌ICP备20230526号</a>
-        </div> -->
-        <div class="remark iUp">
-            <p class="power">Powered By 
-                <a href="https://github.com/features/actions" target="_blank"> GitHub Actions </a> And 
-                <a href="https://blog.beiyao.icu" target="_blank"> Beiyao </a>
-            </p>
-        </div>
-    </header>
-    <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/main.js"></script>
-    <script type="text/javascript" src="./assets/json/images.json?cb=getBingImages"></script>
-</body>
+  <body>
+    <!-- 主体内容 -->
+    <div id="app"></div>
+    <!-- noscript -->
+    <noscript>
+      <div style="text-align: center">请开启 JavaScript</div>
+    </noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

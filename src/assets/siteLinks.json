@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "Blog",
+    "name": "博客",
+    "link": "https://blog.beiyaoo.top/"
+  },
+  {
+    "icon": InsertPhotoOutlined",
+    "name": "图床",
+    "link": "https://img.beiyaoo.top/"
+  },
+  {
+    "icon": "Compass",
+    "name": "起始页",
+    "link": "https://nav.imsyy.top/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.beiyaoo.top/"
+  }
+]
